@@ -54,7 +54,7 @@ Instead of using buttons, points are displayed as **7 visual circles** that the 
 ---
 
 ## 💡 Credits  
-**Author:** [Your Name]  
+**Author:** Jeremy Witchel
 **Foundry VTT System:** **Pathfinder 2E**  
 
 ---
