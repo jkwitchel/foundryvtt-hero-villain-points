@@ -1,0 +1,17 @@
+<form>
+    <div style="text-align: center;">
+        <h2>Hero vs. Villain Points</h2>
+        <div id="points-container" style="display: flex; justify-content: center; gap: 5px;">
+            {{#each circles}}
+                <div class="point-circle" 
+                     data-index="{{index}}" 
+                     style="width: 30px; height: 30px; border-radius: 50%; 
+                            background-color: {{color}};
+                            cursor: {{#if ../isGM}}pointer{{else}}default{{/if}};">
+                </div>
+            {{/each}}
+        </div>
+        <br>
+        <button type="button" id="configure-button" style="display: none;">Configure (GM Only)</button>
+    </div>
+</form>

@@ -1,0 +1,8 @@
+.point-circle {
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.point-circle:hover {
+    opacity: 0.8;
+}
